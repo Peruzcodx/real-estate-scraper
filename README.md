@@ -26,7 +26,7 @@ playwright install
 python scraper.py
 
 ## Sample Output
-[screenshot of Excel here]
+![Sample output](output1.png)
 
 ## Live Demo Site
 https://stately-residence-search.lovable.app
