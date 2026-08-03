@@ -4,7 +4,7 @@ A Python web scraper built with Playwright that automatically extracts property 
 
 ## Overview
 
-This project visits each property listing page, extracts key details, and saves the results into structured spreadsheet files,built to demonstrate practical experience in browser automation and data extraction for real-world scraping tasks.
+This project visits each property listing page, extracts key details, and saves the results into structured spreadsheet files, built to demonstrate practical experience in browser automation and data extraction for real-world scraping tasks.
 
 ## Features
 
@@ -25,6 +25,9 @@ This project visits each property listing page, extracts key details, and saves 
 - Python
 - Playwright
 - openpyxl
+- Browser Automation
+- Web Scraping
+- Data Extraction
 - CSV / Regular Expressions (re)
 
 ## Installation
@@ -74,6 +77,14 @@ This project was built to demonstrate practical experience in:
 - Data Extraction
 - Spreadsheet Report Generation
 - Python Automation
+
+## Future Improvements
+
+- Export data to a SQL database
+- Schedule automatic scraping
+- Add proxy support
+- Scrape multiple real estate websites
+- Generate PDF reports
 
 ## Disclaimer
 
