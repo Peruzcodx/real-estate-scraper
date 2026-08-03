@@ -1,2 +1,34 @@
-# real-estate-scraper
-Python &amp; Playwright web scraper that extracts property listings (title, price, location, bedrooms, bathrooms) and saves to Excel &amp; CSV automatically
+# Real Estate Property Scraper
+
+A Python web scraper built with Playwright that 
+automatically extracts property listings from 
+Luxe Estate (stately-residence-search.lovable.app)
+and saves to both Excel and CSV formats.
+
+## Data Collected
+- Property Title
+- Price
+- Location
+- Bedrooms, Bathrooms, Garage
+- Size (sqft)
+- Property URL
+
+## Tech Stack
+- Python
+- Playwright
+- openpyxl
+- CSV
+
+## How to Run
+pip install playwright openpyxl
+playwright install
+python scraper.py
+
+## Sample Output
+[screenshot of Excel here]
+
+## Live Demo Site
+https://stately-residence-search.lovable.app
+
+## Author
+Peter | github.com/Peruzcodx
