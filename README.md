@@ -27,6 +27,7 @@ python scraper.py
 
 ## Sample Output
 ![Sample output](ecommerce.png)
+![Sample output](csv_output.png)
 
 ## Live Demo Site
 https://stately-residence-search.lovable.app
