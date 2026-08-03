@@ -26,7 +26,7 @@ playwright install
 python scraper.py
 
 ## Sample Output
-![Sample output](e commerce.png)
+![Sample output](ecommerce.png)
 
 ## Live Demo Site
 https://stately-residence-search.lovable.app
