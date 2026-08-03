@@ -10,6 +10,7 @@ and saves to both Excel and CSV formats.
 - Price
 - Location
 - Bedrooms, Bathrooms, Garage
+- Property Types
 - Size (sqft)
 - Property URL
 
