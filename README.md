@@ -1,43 +1,106 @@
-# Real Estate Property Scraper
+# Property Data Automation System
 
-A Python web scraper built with Playwright that automatically extracts property listings from [Luxe Estate](https://stately-residence-search.lovable.app) and exports the results into Excel and CSV formats for easy analysis.
+A Python automation solution built with Playwright that automatically collects, organizes, and exports real estate property data into structured Excel and CSV reports.
 
-## Overview
+This project demonstrates how automation can reduce manual data entry, improve data organization, and save valuable staff time for real estate organizations.
 
-This project visits each property listing page, extracts key details, and saves the results into structured spreadsheet files, built to demonstrate practical experience in browser automation and data extraction for real-world scraping tasks.
+---
+
+## Business Problem
+
+Many real estate companies spend hours manually copying property information into spreadsheets or updating listings across different platforms.
+
+This repetitive process can lead to:
+
+- Time-consuming manual work
+- Data entry errors
+- Inconsistent property records
+- Difficulty maintaining organized property data
+- Reduced staff productivity
+
+---
+
+## Solution
+
+This automation system visits property listing pages, extracts essential property information, and automatically generates organized Excel and CSV reports.
+
+Instead of manually collecting property information, staff receive structured data ready for analysis or further processing.
+
+---
 
 ## Features
 
-- Scrapes all available property listings on the site
-- Collects:
+- Automatically collects property listings
+- Extracts:
   - Property Title
   - Price
   - Location
-  - Bedrooms, Bathrooms, Garage
-  - Property Type
-  - Size (sqft)
+  - Bedrooms
+  - Bathrooms
+  - Property Size
   - Property URL
-- Saves data into both Excel (`.xlsx`) and CSV formats
-- Handles errors gracefully without stopping the entire scraping process
+- Exports data to Excel
+- Exports data to CSV
+- Handles multiple property pages automatically
+- Includes error handling to continue scraping if one page fails
 
-## Tech Stack
+---
+
+## Business Benefits
+
+This solution helps real estate organizations by:
+
+✅ Reducing repetitive manual work
+
+✅ Saving staff time
+
+✅ Organizing property data into structured reports
+
+✅ Minimizing manual data entry errors
+
+✅ Making property information easier to analyze
+
+---
+
+## Technologies Used
 
 - Python
 - Playwright
-- openpyxl
-- Browser Automation
-- Web Scraping
-- Data Extraction
-- CSV / Regular Expressions (re)
+- OpenPyXL
+- CSV
+- Regular Expressions (re)
+
+---
+
+## Sample Output
+
+### Excel Output
+![Excel Output](ecommerce.png)
+
+### CSV Output
+
+![CSV Output](csv.png)
+
+---
+
+## Project Structure
+
+```
+real-estate-scraper/
+│
+├── scraper.py
+├── README.md
+├── requirements.txt
+├── sample_output.xlsx
+├── sample_output.csv
+├── excel.png
+├── csv.png
+└── .gitignore
+```
+
+---
 
 ## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/Peruzcodx/real-estate-scraper.git
-cd real-estate-scraper
-```
 
 Install the required packages:
 
@@ -45,51 +108,41 @@ Install the required packages:
 pip install -r requirements.txt
 ```
 
-Install the Playwright browser:
+Install Playwright browsers:
 
 ```bash
 playwright install
 ```
 
-## How to Run
+Run the scraper:
 
 ```bash
 python scraper.py
 ```
 
-The scraper will generate `properties.xlsx` and `properties.csv` in the project folder.
-
-## Sample Output
-
-![Sample output](ecommerce.png)
-![Sample output](csv.png)
-
-## Live Demo Site
-
-https://stately-residence-search.lovable.app
-
-## Purpose
-
-This project was built to demonstrate practical experience in:
-
-- Web Scraping
-- Browser Automation
-- Data Extraction
-- Spreadsheet Report Generation
-- Python Automation
+---
 
 ## Future Improvements
 
-- Export data to a SQL database
-- Schedule automatic scraping
-- Add proxy support
-- Scrape multiple real estate websites
-- Generate PDF reports
+- Export data directly into a SQL database
+- Schedule automatic daily scraping
+- Email generated reports automatically
+- Build a web dashboard for viewing reports
+- Detect duplicate property listings
+- Generate summary reports
+
+---
 
 ## Disclaimer
 
-This project targets a demo/sandbox site and is intended for educational and portfolio purposes. Always review and comply with a website's Terms of Service and robots.txt before scraping production sites.
+This project was developed for educational and portfolio purposes using publicly accessible demonstration content. Always ensure that automated data collection complies with the target website's Terms of Service and applicable laws before scraping production websites.
+
+---
 
 ## Author
 
-Peter | [github.com/Peruzcodx](https://github.com/Peruzcodx)
+PeterCodx
+
+Python Automation & Web Scraping Developer
+
+Helping businesses automate repetitive tasks and transform web data into actionable insights.
